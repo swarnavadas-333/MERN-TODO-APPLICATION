@@ -1,1 +1,1 @@
-simple todo mern stack application
+# Simple todo mern stack application
