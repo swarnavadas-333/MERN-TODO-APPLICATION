@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json());
 
 // Connect to your MongoDB database (replace with your database URL)
-mongoose.connect("mongodb://localhost:27017");
+mongoose.connect("mongodb://0.0.0.0:27017/");mongodb://localhost:27017/
 
 // Check for database connection errors
 mongoose.connection.on("error", (error) => {
